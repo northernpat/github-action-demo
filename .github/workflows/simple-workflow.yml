@@ -35,4 +35,5 @@ jobs:
           hostname
           uname
           date
+          echo running df -hl  ; df -hl
         
