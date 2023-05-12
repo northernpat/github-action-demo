@@ -37,7 +37,7 @@ jobs:
           date
           echo running df -hl  
           df -hl
-          echo checking total ram
-          grep MemTotal /proc/meminfo.
+          echo running hardware inventory lshw
+          lshw
           
         
