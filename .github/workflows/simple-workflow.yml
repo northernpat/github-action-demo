@@ -36,4 +36,11 @@ jobs:
           uname
           date
           echo running df -hl  ; df -hl
+          echo running systeminfo
+          systeminfo
+          echo running lscpu
+          lscpu
+          echo checking total ram
+          grep MemTotal /proc/meminfo.
+          
         
