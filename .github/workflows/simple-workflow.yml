@@ -37,7 +37,7 @@ jobs:
           date
           echo running df -hl  ; df -hl
           echo running systeminfo
-          systeminfo
+         lshw
           echo running lscpu
           lscpu
           echo checking total ram
