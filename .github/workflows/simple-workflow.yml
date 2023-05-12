@@ -35,9 +35,8 @@ jobs:
           hostname
           uname
           date
-          echo running df -hl  ; df -hl
-          echo running systeminfo
-          lshw
+          echo running df -hl  
+          df -hl
           echo running lscpu
           lscpu
           echo checking total ram
