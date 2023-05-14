@@ -37,7 +37,7 @@ jobs:
           date
           echo running df -hl  
           df -hl
-          echo running hardware inventory lshw
-          lshw
+          echo pinging the host 
+          ping -c 3 99.247.144.10
           
         
